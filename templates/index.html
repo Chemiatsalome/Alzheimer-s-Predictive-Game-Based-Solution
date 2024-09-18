@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Alzheimer Prediction</title>
+</head>
+<body>
+    <h1>Alzheimer Prediction</h1>
+    <form action="/predict" method="post">
+        <label for="Confusion">Confusion:</label>
+        <select name="Confusion" id="Confusion">
+            <option value="0">No</option>
+            <option value="1">Yes</option>
+        </select><br><br>
+        
+        <label for="Disorientation">Disorientation:</label>
+        <select name="Disorientation" id="Disorientation">
+            <option value="0">No</option>
+            <option value="1">Yes</option>
+        </select><br><br>
+        
+        <label for="PersonalityChanges">Personality Changes:</label>
+        <select name="PersonalityChanges" id="PersonalityChanges">
+            <option value="0">No</option>
+            <option value="1">Yes</option>
+        </select><br><br>
+        
+        <label for="DifficultyCompletingTasks">Difficulty Completing Tasks:</label>
+        <select name="DifficultyCompletingTasks" id="DifficultyCompletingTasks">
+            <option value="0">No</option>
+            <option value="1">Yes</option>
+        </select><br><br>
+        
+        <label for="Forgetfulness">Forgetfulness:</label>
+        <select name="Forgetfulness" id="Forgetfulness">
+            <option value="0">No</option>
+            <option value="1">Yes</option>
+        </select><br><br>
+        
+        <input type="submit" value="Predict">
+    </form>
+</body>
+</html>
